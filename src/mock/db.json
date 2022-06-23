@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@qq.com",
+      "pass": "admin",
+      "name": "admin",
+      "role": "管理员",
+      "token": "dshjfkslefhsdkfjsd-admin@qq.com"
+    },
+    {
+      "id": 2,
+      "email": "xiaoming@qq.com",
+      "pass": "xiaoming",
+      "name": "小明",
+      "role": "员工",
+      "token": "dugierjfsdlkfsdkfdff-xiaoming@qq.com"
+    },
+    {
+      "name": "大白",
+      "email": "dabai@qq.com",
+      "role": "经理",
+      "pass": "dabai",
+      "token": "shdfjskldfhqwweasjkfd-dabai@qq.com",
+      "id": 4
+    },
+    {
+      "name": "小刚",
+      "email": "xiaogang@qq.com",
+      "role": "员工",
+      "pass": "xiaogang",
+      "token": "shdfjskldfhqwweasjkfd-xiaogang@qq.com",
+      "id": 5
+    }
+  ],
+  "checks": [
+    {
+      "checktoname": "大白",
+      "checktype": "年假",
+      "checktime": [
+        "2022-05-10T02:32:13.260Z",
+        "2022-05-28T02:32:16.260Z"
+      ],
+      "checkinfo": "年假",
+      "checktoid": 4,
+      "status": "审核中",
+      "checkfromid": 2,
+      "checkfromname": "小明",
+      "id": 1
+    },
+    {
+      "checktoname": "大白",
+      "checktype": "调休",
+      "checktime": [
+        "2022-05-17T02:37:28.701Z",
+        "2022-05-19T02:37:30.701Z"
+      ],
+      "checkinfo": "要休息",
+      "checktoid": 4,
+      "status": "审核中",
+      "checkfromid": 2,
+      "checkfromname": "小明",
+      "id": 2
+    },
+    {
+      "checktoname": "大白",
+      "checktype": "加班",
+      "checktime": [
+        "2022-05-30T02:54:40.199Z",
+        "2023-05-01T02:54:49.199Z"
+      ],
+      "checkinfo": "加够24小时",
+      "checktoid": 4,
+      "status": "审核中",
+      "checkfromid": 5,
+      "checkfromname": "小刚",
+      "id": 3
+    }
+  ]
+}

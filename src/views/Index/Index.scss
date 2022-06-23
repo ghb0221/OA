@@ -1,0 +1,22 @@
+
+.Index{
+  .header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    .logo{
+      color: inherit;
+    }
+    .user{
+      color: inherit;
+      cursor: pointer;
+    }
+  }
+  .sider{
+    height: calc(100vh - 64px);
+  }
+  .content{
+    background: white;
+    position: relative;
+  }
+}
